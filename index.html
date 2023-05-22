@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- TODO: html_1:タイトルを設定しよう -->
+    <title>zizoベーカリーへようこそ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="site-header">
+      <h1 class="site-logo">
+        <a href=""><img src="img/zizoロゴ.jpg" /></a>
+      </h1>
+      <!-- TODO: html_2:Headerを書いていこう！ -->
+      <nav class="pc-nav">
+        <ul class="nav-menu">
+          </li>
+          <li class="nav-menu-items">
+            <a href="#works">Works</a>
+          </li>
+          <li class="nav-menu-items">
+            <a href="#access">Access</a>
+          </li>
+          <li class="nav-menu-items">
+            <a href="#promotion">Movie</a>
+          </li>  
+          <li class="nav-menu-items">
+              <a href="#profile">Profile</a>
+          </li>
+          <li class="nav-menu-items">
+            <a href="#contact">Contact</a>
+        </li>
+        </ul>
+      </nav>
+      <nav class="sp-nav" id="sp-nav">
+        <ul>
+          <li class="nav-menu-items"><a href="#works">Works</a></li>
+          <li class="nav-menu-items"><a href="#access">Access</a></li>
+          <li class="nav-menu-items"><a href="#promotion">Movie</a></li>
+          <li class="nav-menu-items"><a href="#profile">Profile</a></li>
+          <li class="close" id="close"><span>閉じる</span></li>
+        </ul>
+      </nav>
+      <div id="hamburger">
+        <span></span>
+      </div>
+    </header>
+
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <!-- TODO: html_3:Swiperを実装してみよう！ -->
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="img/top1.JPG" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/top2.JPG" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/top3.JPG" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/top4.JPG" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/top5.JPG" alt="" />
+        </div>
+      </div>
+      <div class="top-title">Welcome to zizo bakery!</div>
+    </div>
+
+    <!-- Description -->
+    <div class="description-text">
+      <p>里山でひとりひっそりパン作り。</p>
+      <p>季節の果物で培養した酵母のパンがおすすめです。</p>
+    </div>
+
+    <!-- Works -->
+
+    <hr class="rule" id="works" />
+    <h2 class="sub-title">どんなベーカリーなの？</h2>
+    <div class="works">
+      <div class="work">
+        <h3 class="work-title">酵母について</h3>
+        <img class="work-img" src="img/koubo.jpg" />
+        <p>
+          ぶどう、プラムなど季節の果物やラベンダーなどハーブの酵母を培養してパンの土台にしています。
+        </p>
+      </div>
+      <div class="work">
+        <h3 class="work-title">丸パンもおすすめ。</h3>
+        <img class="work-img" src="img/丸パン２.JPG" />
+        <p>焼き上げ前。</p>
+
+        <img class="work-img" src="img/丸パン.JPG" />
+        <p>焼き上げ後。</p>
+      </div>
+      <div class="work">
+        <h3 class="work-title">ハード系もあるよ</h3>
+        <img class="work-img" src="img/カンパーニュ.jpg" />
+        <p>
+          カンパーニュなどハード系も。チーズを乗せたり、バターとハチミツを合わせたり、食べ方いろいろ。ぜひお試しください。
+        </p>
+      </div>
+    </div>
+
+    <!-- Access -->
+    <hr class="rule" id="access" />
+    <h2 class="sub-title">Access</h2>
+    <div class="access">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3744.1988088216667!2d141.0585356405814!3d38.4222400554358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f899e878e9778db%3A0xd042e9e371a7180e!2zWklaT-ODmeODvOOCq-ODquODvA!5e0!3m2!1sja!2sjp!4v1675486126854!5m2!1sja!2sjp"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <!-- Movie -->
+    <hr class="rule" id="promotion" />
+    <h2 class="sub-title">Movie</h2>
+    <div class="promotion"></div>
+    <div class="video">
+      <video controls>
+        <source src="img/桜並木の下で小さな販売.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <!-- Profile -->
+    <hr class="rule" id="profile" />
+    <h2 class="sub-title">Profile</h2>
+    <div class="profile">
+      <div id="profile-img">
+        <img src="img/satomi.jpg" alt="profile-photo" />
+      </div>
+      <div id="profile-text">
+        <!-- TODO: html_4:Webサイトのコンテンツを作ろう！ -->
+        <!-- <p></p> -->
+        <p>Satomi Chiho</p>
+        <p>ひとりベーカリー店主</p>
+        <p>パン作りのほか、イベント出店やワークショップも開催しています。</p>
+      </div>
+    </div>
+
+    <!-- contact -->
+    <hr class="rule" id="contact" />
+    <h2 class="sub-title">contact</h2>
+    <div class="contact">
+      <div id="contact-text">
+      <p>お問合せはこちらまで</p>
+      <a href="mailto:info@zizobakery.com">info@zizobakery.com</a>
+    </div>
+      <div id="contact-img">
+        <img src="img/syokupan.png" alt="食パンのイラスト" />
+      </div>
+
+      
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <p class="copyright"><small>&copy; 2021 Itnav</small></p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
